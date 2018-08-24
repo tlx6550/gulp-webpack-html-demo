@@ -139,9 +139,9 @@ gulp.task('css', function(){
     precision: 10,
     includePaths: ['.']
   }).on('error', notify.onError("Error: <%= error.message %>")))
-  .pipe($.autoprefixer({ browsers: ['last 2 versions'],cascade: false }))
+  .pipe($.autoprefixer({ browsers: ['last 3 versions','iOS >= 8','Firefox >= 20','Android > 4.2','not ie <= 8'],cascade: false }))
   .pipe(pxtorem2({
-    remUnit: 64,
+    remUnit: 72,
     filterProperties: [],
     remPrecision: 3
   }))
