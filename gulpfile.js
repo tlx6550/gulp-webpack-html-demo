@@ -140,11 +140,11 @@ gulp.task('css', function(){
     includePaths: ['.']
   }).on('error', notify.onError("Error: <%= error.message %>")))
   .pipe($.autoprefixer({ browsers: ['last 3 versions','iOS >= 8','Firefox >= 20','Android > 4.2','not ie <= 8'],cascade: false }))
-  .pipe(pxtorem2({
+ /* .pipe(pxtorem2({
     remUnit: 72,
     filterProperties: [],
     remPrecision: 3
-  }))
+  }))*/
   .pipe(gulp.dest(config.path.dist))
   .pipe(minifycss())
   .pipe(rename(function(path){

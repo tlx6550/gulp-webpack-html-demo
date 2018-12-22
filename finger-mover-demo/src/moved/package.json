@@ -1,0 +1,21 @@
+{
+  "name": "moved",
+  "version": "1.4.3",
+  "description": "Miniature motion solutions",
+  "main": "dist/moved.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HcySunYang/finger-mover.git"
+  },
+  "keywords": [
+    "move",
+    "moved",
+    "Animation"
+  ],
+  "author": "HcySunYang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HcySunYang/finger-mover/issues"
+  },
+  "homepage": "https://github.com/HcySunYang/finger-mover/blob/master/src/moved/README.md"
+}

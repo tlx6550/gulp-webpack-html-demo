@@ -44,7 +44,12 @@
     "webpack-stream": "^4.0.0"
   },
   "dependencies": {
+    "finger-mover": "^1.4.3",
+    "fingerd": "^1.4.3",
     "handlebars": "^4.0.10",
-    "handlebars-loader": "^1.6.0"
+    "handlebars-loader": "^1.6.0",
+    "moved": "^1.4.3",
+    "simulation-scroll-x": "^1.4.3",
+    "simulation-scroll-y": "^1.4.3"
   }
 }

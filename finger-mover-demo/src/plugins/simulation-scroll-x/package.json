@@ -1,0 +1,21 @@
+{
+  "name": "simulation-scroll-x",
+  "version": "1.4.3",
+  "description": "Horizontal scroll simulation solution on mobile device.",
+  "main": "dist/simulation-scroll-x.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HcySunYang/finger-mover.git"
+  },
+  "keywords": [
+    "scroll",
+    "simulation",
+    "finger-mover"
+  ],
+  "author": "HcySunYang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HcySunYang/finger-mover/issues"
+  },
+  "homepage": "https://github.com/HcySunYang/finger-mover/blob/master/src/plugins/simulation-scroll-x/README.md"
+}

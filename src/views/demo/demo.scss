@@ -1,36 +1,23 @@
-
-body {
-  background-color:#fff;
-  width: 100%;
-  margin:0;
-}
-
-.container {
-	width: 640px; //会根据基数自动转化为对应的rem
-	background-image: url('/static/images/in-baseMap.png');
-	height: 100%;
-}
-
-.login-form {
-	width: 640px;
-	height: 500px;
-	padding-top: 50px;
-	.form-body {
-
-		width: 500px;
-		margin: 0 auto;
-
-		height: 387px;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-image: url('/static/images/ln-register.png');
-	}
-}
-.in-logonBox {
-    /* border: 1px solid red; */
-    width: 32rem;
-    height: 21rem;
-    position: absolute;
-    top: 5rem;
-    left: 5px;
-}
+        body {
+            background-color: #ccc;
+        }
+        #box {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        #scroll-box {
+            background: #19bbff;
+        }
+        #scroll-box p {
+            margin: 0;
+            height: 40px;
+            line-height: 40px;
+            text-indent: 20px;
+            color: #fff;
+            white-space: nowrap;
+        }

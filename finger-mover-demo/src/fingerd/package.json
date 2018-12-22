@@ -1,0 +1,21 @@
+{
+  "name": "fingerd",
+  "version": "1.4.3",
+  "description": "A development kit for finger unit event management in mobile development",
+  "main": "dist/fingerd.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HcySunYang/finger-mover.git"
+  },
+  "keywords": [
+    "event",
+    "finger",
+    "fingerd"
+  ],
+  "author": "HcySunYang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HcySunYang/finger-mover/issues"
+  },
+  "homepage": "https://github.com/HcySunYang/finger-mover/blob/master/src/fingerd/README.md"
+}

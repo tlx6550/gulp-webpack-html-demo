@@ -1,0 +1,22 @@
+{
+  "name": "fmover-slide-x",
+  "version": "1.4.3",
+  "description": "finger-mover horizontal slideshow plugin",
+  "main": "dist/fmover-slide-x.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HcySunYang/finger-mover.git"
+  },
+  "keywords": [
+    "plugin",
+    "slide",
+    "swiper",
+    "finger-mover"
+  ],
+  "author": "HcySunYang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HcySunYang/finger-mover/issues"
+  },
+  "homepage": "https://github.com/HcySunYang/finger-mover/blob/master/src/plugins/fmover-slide-x/README.md"
+}
