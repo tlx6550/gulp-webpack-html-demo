@@ -9,12 +9,17 @@
         body {
             background-color: #ccc;
         }
+        .wrap{
+        	padding:150px 0;
+        }
         #box {
-            position: absolute;
+           /* position: absolute;
             top: 0;
             left: 0;
             right: 0;
-            bottom: 0;
+            bottom: 0;*/
+           width: 100%;
+           height: 200px;
             box-sizing: border-box;
             overflow: hidden;
         }
@@ -34,12 +39,14 @@
     <!--<script src='http://10.216.96.119:6789/target/target-script-min.js#anonymous'></script>-->
 </head>
 <body>
-
-<div id="box">
+<div class="wrap">
+	<div id="box">
     <div id="scroll-box">
         <div class="content"></div>
     </div>
 </div>
+</div>
+
 
 <script src="../dist/finger-mover.js"></script>
 <script src="../src/plugins/simulation-scroll-y/dist/simulation-scroll-y.js"></script>
